@@ -3,10 +3,11 @@ function validate(){
     var password=document.getElementById("password").value;
     if(username=="Anshuman"&& password=="7872"){
         alert("You are Successfully Logged in");
-        location.reload();
         windows.open("https://www.youtube.com/watch?v=I2weoKK_vT4")
+        location.reload();
     }
-    else
+    else{
         alert("Who are you?");
-    location.reload();
+        location.reload();
+    }
 }
