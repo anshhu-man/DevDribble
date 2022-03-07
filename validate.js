@@ -5,8 +5,6 @@ function validate(){
         alert("You are Successfully Logged in");
         windows.open("https://www.youtube.com/watch?v=I2weoKK_vT4");
     }
-    else{
+    else
         alert("Who are you?");
-        location.reload();
-    }
 }
