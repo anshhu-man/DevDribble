@@ -4,7 +4,7 @@ function validate(){
     if(username=="Anshuman"&& password=="7872"){
         alert("You are Successfully Logged in");
         window.open("https://www.youtube.com/watch?v=I2weoKK_vT4")
-        return false;
+        return true;
     }
     else
         alert("Who are you?");
