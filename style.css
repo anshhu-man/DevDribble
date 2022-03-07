@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-image: url("back1.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.fillet{
+    width:300px;
+    padding:30px;
+    position: absolute;
+    top:46%;
+    left:49.5%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+}
+.fillet input[type="text"],.fillet input[type="password"]{
+    border: 0;
+    background: rgba(14, 114, 180, 0.8);
+    display: block;
+    margin: 20px ;
+    text-align: center;
+    padding:14px 14px;
+    width:235px;
+}
+.fillet input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border:2px solid #ee4a09ec;
+    padding:10px 60px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:0.25px;
+    cursor:pointer;
+}
+.fillet input[type="submit"]:hover{
+    background: #ee4a09ec;
+}
