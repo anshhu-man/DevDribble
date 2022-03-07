@@ -6,8 +6,7 @@ function validate(){
         window.open("https://www.youtube.com/watch?v=I2weoKK_vT4")
         return false;
     }
-    else{
+    else
         alert("Who are you?");
-        location.reload();
-    }
+    location.reload();
 }
